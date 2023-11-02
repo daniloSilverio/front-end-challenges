@@ -1,0 +1,203 @@
+/*<--------------GLOBAL-------------->*/
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: HankenGrotesk;
+}
+
+@font-face{
+    font-family: HankenGrotesk;
+    src: url("../fonts/HankenGrotesk-VariableFont_wght.ttf");
+}
+
+@font-face{
+    font-family: HankenGrotesk;
+    src: url("../fonts/static/HankenGrotesk-Bold.ttf");
+    font-weight: 700;
+}
+@font-face{
+    font-family: HankenGrotesk;
+    src: url("../fonts/static/HankenGrotesk-ExtraBold.ttf");
+    font-weight: 900;
+}
+@font-face{
+    font-family: HankenGrotesk;
+    src: url("../fonts/static/HankenGrotesk-Medium.ttf");
+    font-weight: 500;
+}
+
+h1{
+    font-size: 56px;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(221, 100%, 96%);
+}
+
+/*<--------------CARD-------------->*/
+
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-size{
+    font-size: 18px;
+}
+
+.txt-grade{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.txt-align{
+    text-align: center;
+}
+
+.card-component{
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 10px 20px 20px hsla(224, 30%, 27%, 0.199);
+}
+
+.card-result{
+    flex-direction: column;
+    justify-content: space-around;
+    height: 450px;
+    width: 340px;
+    padding: 40px 40px;
+    border-radius: 40px;
+    background: linear-gradient(180deg,  hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.txt-white{
+    color: #fff;
+}
+
+.txt-lavender{
+    color: hsl(241, 100%, 89%);
+}
+
+.score-field{
+    flex-direction: column;
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    background: linear-gradient(180deg,  hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.txt-result{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card-summary{
+    flex-direction: column;
+    align-items: flex-start;
+    height: 450px;
+    width: 340px;
+    padding: 40px 16px;
+    gap: 16px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color: #fff;
+}
+
+.summary-score {
+    justify-content: space-around;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.f-start{
+    align-items: flex-start;
+}
+.gap-icon{
+    gap: 8px;
+}
+
+#reaction{
+    color: hsl(0, 100%, 67%);
+    background-color: hsla(0, 100%, 67%, 0.10);
+    font-weight: 700;
+}
+
+#memory{
+    color: hsl(39, 100%, 56%);
+    background-color: hsla(39, 100%, 56%, 0.10);
+    font-weight: 700;
+}
+
+#verbal{
+    color: hsl(166, 100%, 37%);
+    background-color: hsla(166, 100%, 37%, 0.10);
+    font-weight: 700;
+
+}
+
+#visual{
+    color: hsl(234, 85%, 45%);
+    background-color: hsla(234, 85%, 45%, 0.10);
+    font-weight: 700;
+}
+
+.txt-color{
+    color: hsla(224, 30%, 27%, 0.7);
+    font-weight: 500;
+}
+.txt-color span{
+    font-weight: 900;
+    color: hsl(224, 30%, 27%); 
+}
+
+.btn{
+    height: 50px;
+    width: 100%;
+    margin-top: 16px;
+    border-radius: 32px;
+    color: #fff;
+    background: hsl(224, 30%, 27%);
+}
+
+.btn:hover{
+    background: linear-gradient(180deg,  hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.attribution{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+}
+
+/*<--------------CARD-------------->*/
+
+@media (max-width: 700px) {
+    
+    main{
+        height: fit-content;
+    }
+    .card-component{
+        flex-direction: column;
+    }
+
+    .card-result{
+        min-height: 50vh;
+        width: 100vw;
+        padding-top: 20px;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+    }
+
+    .card-summary{
+        height: fit-content;
+        width: 100vw;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+}
