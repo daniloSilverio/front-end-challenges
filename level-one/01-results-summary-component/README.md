@@ -11,4 +11,4 @@
 
 This challenge is about building a component that shows a results card.
 
-<a href="https://results-summary-component-amber-kappa.vercel.app/" target="_blank">Visit project</a>
+<a href="https://results-summary-component-amber-kappa.vercel.app/" target="_blank">Preview</a>
