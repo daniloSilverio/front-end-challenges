@@ -11,4 +11,4 @@
 
 This challenge is about building a component that shows a results card.
 
-(https://results-summary-component-amber-kappa.vercel.app/)
+https://results-summary-component-amber-kappa.vercel.app/
