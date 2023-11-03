@@ -1,6 +1,6 @@
 # Frontend Mentor - Product Card Component
 
-![Design preview for the Results summary component coding challenge](./assets/images/design.jpg)
+![Design preview for the Results summary component coding challenge](./assets/design/desktop-design.jpg)
 
 ## Welcome! 👋
 
