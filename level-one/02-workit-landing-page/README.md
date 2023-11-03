@@ -11,4 +11,4 @@
 
 This challenge is about building a component that shows a results card.
 
-<a href="" target="_blank">Preview</a>
+<a href="https://front-end-challenges-workit-dgs.vercel.app/" target="_blank">Preview</a>
