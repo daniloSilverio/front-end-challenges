@@ -1,6 +1,6 @@
 # Frontend Mentor - Product Card Component
 
-![Design preview for the Results summary component coding challenge](./assets/images/image-product-desktop.jpg)
+![Design preview for the Results summary component coding challenge](./assets/images/design.jpg)
 
 ## Welcome! 👋
 
@@ -11,4 +11,4 @@
 
 This challenge is about building a product card component.
 
-<a href="" target="_blank">Preview</a>
+<a href="https://front-end-challenges-product-card-dgs.vercel.app/" target="_blank">Preview</a>
