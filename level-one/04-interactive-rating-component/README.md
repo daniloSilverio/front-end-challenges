@@ -11,4 +11,4 @@
 
 This challenge is about building a interactive rating component.
 
-<a href="" target="_blank">Preview</a>
+<a href="https://interactive-rating-component-dgs.surge.sh/" target="_blank">Preview</a>
