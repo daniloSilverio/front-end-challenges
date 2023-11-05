@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <script src="./assets/javascript/script.js" defer></script>
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+<body>
+  <main>
+    <div class="rating-component">
+      <div class="rating-component--icon">
+        <img src="./assets/images/icon-star.svg" alt="Star icon">
+      </div>
+      <h1 class="rating-component--title">How did we do?</h1>
+      <p class="rating-component--txt">Please let us know how we did with your support request. All feedback is appreciated 
+          to help us improve our offering!</p>
+      <div class="rating-component--btns">
+        <ul class="rating-component--btns-ul">
+          <button class="rating-btn">1</button>
+          <button class="rating-btn">2</button>
+          <button class="rating-btn">3</button>
+          <button class="rating-btn">4</button>
+          <button class="rating-btn">5</button>
+        </ul>
+      </div>
+      <button id="submit" class="rating-component--submit-btn">
+        Submit
+      </button>
+    </div>
+    <div class="result-component hidden">
+      <img src="./assets/images/illustration-thank-you.svg" alt="Illustration">
+      <div class="result-component--txt-rating">
+        <p>You selected <span id="rating"></span> out of 5</p>
+      </div>
+      <h2 class="result-component--title">Thank you!</h2>
+      <p class="result-component--txt">We appreciate you taking the time to give a rating. If you ever need more support, 
+        don’t hesitate to get in touch!</p>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io/profile/daniloSilverio" target="_blank">Frontend Mentor.</a> 
+      Coded by <a href="https://www.frontendmentor.io/profile/daniloSilverio" target="_blank">Danilo Silverio.</a>
+    </div>
+  </main>
+</body>
+</html>
