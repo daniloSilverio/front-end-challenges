@@ -56,7 +56,7 @@ main{
     width: 100%;
 }
 
-.rating-component--btns-ul{
+.rating-component--btns-container{
     display: flex;
     align-items: center;
     justify-content: space-around;
